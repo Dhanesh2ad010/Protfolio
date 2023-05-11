@@ -1,0 +1,86 @@
+/*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
+/* Desktop Navigation */
+
+.nav-menu {
+    margin-top: 20px;
+    margin-left: 700px;
+  }
+  
+  .nav-menu * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .nav-menu ul li {
+    display: inline-block;
+    white-space: nowrap;
+  }
+  
+  .nav-menu a,
+  .nav-menu a:focus {
+    color: #a8a9b4;
+    margin-bottom: 8px;
+    transition: 0.3s;
+    font-family: BookAntiqua;
+    font-size: 25px;
+  }
+  
+  .nav-menu a i,
+  .nav-menu a:focus i {
+    font-size: 24px;
+    padding-right: 8px;
+    color: #6f7180;
+  }
+  
+  .nav-menu a:hover,
+  .nav-menu .active,
+  .nav-menu .active:focus,
+  .nav-menu li:hover>a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .nav-menu a:hover i,
+  .nav-menu .active i,
+  .nav-menu .active:focus i,
+  .nav-menu li:hover>a i {
+    color: #149ddd;
+  }
+  
+h2{
+    font-family: BookAntiqua;
+    padding-top: 30%;
+    padding-left: 40%;
+}
+
+body
+{
+    background-color:aqua;
+}
+.cv{
+    font-family: BookAntiqua;
+    margin-left: 250px;
+    padding: 5px;
+    text-decoration: none;
+    background-color: black;
+    font-size: 25px;
+    color:whitesmoke;
+    border-radius: 5px;
+
+}
+.about
+{
+    margin-left: 200px;
+    margin-top: 225px;
+    font-family: Century;
+}
+.skill,.contact
+{   
+    margin-top:120px;
+    margin-left: 100px;
+    font-family: Century;
+    font-size: 25px;
+}
